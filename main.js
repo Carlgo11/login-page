@@ -1,12 +1,13 @@
 $(document).ready(function(e) {
   $('#login-button').on("click", function() {
-    //loadNewPage();
     invalidLogin();
-    /*$('#login-head').slideUp('slow');
+    /*
+    loadNewPage();
+    $('#login-head').slideUp('slow');
     $('#login-head').promise().done(function() {
       $('.input-div').fadeOut();
-    });*/
-
+    });
+    */
   });
   function loadNewPage() {
    setInterval(function() {
@@ -19,6 +20,5 @@ $(document).ready(function(e) {
     $('.center').animate({"left": '-=70'}, 100);
     $('.center').animate({"left": '+=140'}, 100);
     $('.center').animate({"left": '-=70'}, 100);
-
   }
 });

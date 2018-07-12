@@ -1,9 +1,31 @@
+body {
+  color: #ccc;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
 .center {
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.user-input {
+  right: 0;
+  position: relative;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: inherit;
+  font-size: 20px;
+  height: 30px;
+  width: 260px;
+  background-color: #0d0d0d;
+  border: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #login-head {
@@ -64,30 +86,10 @@
   user-select: none;
 }
 
-#user-input {
-  right: 0;
-  position: relative;
-  margin-right: 50px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  color: inherit;
-  font-size: 20px;
-  height: 30px;
-  width: 260px;
-  background-color: #0d0d0d;
-  border: 0;
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
 
 #version {
   color: #5b5858;
   margin-top: 20;
   text-align: center;
-}
-
-body {
-  color: #ccc;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
 }
