@@ -15,17 +15,18 @@
     <div id="login-head">
       <p id="login-head-text">Please Log In</p>
     </div>
-    <div id="login-body">
+    <form id="login-body">
       <div id="login-body-container">
         <div class="input-div">
-          User: <input class="user-input" type="text" data-lpignore="true" autocomplete="off">
+          User: <input class="user-input" type="text" id="username" data-lpignore="true" autocomplete="off">
         </div>
         <div class="input-div">
-          Password: <input class="user-input" type="password" data-lpignore="true" autocomplete="off">
+          Password: <input class="user-input" type="password" id="password" data-lpignore="true" autocomplete="off">
         </div>
         <div id="login-button">Log In</div>
       </div>
-    </div>
+      <input type="submit" hidden/>
+    </form>
     <p id="version">VERSION 8.279.78.65</p>
   </div>
 </body>
